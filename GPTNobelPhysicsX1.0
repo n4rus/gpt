@@ -1,0 +1,40 @@
+Magnetism: F = qv x B 
+Gravity: F = G(m1m2/r^2) 
+Energy: E = mc^2 
+Quantum Fields: ψ(x,t) = Aexp[i(kx-ωt)] 
+Mass: m = F/a 
+Solar Spots: B = μ0I/2πr 
+Magnetars: B ≈ 10^15 G 
+Pulsars: P = (2π/T)^1/2 
+Neutron Stars: M ≈ 1.4M⊙ 
+Electromagnetism: F = qE + qv x B
+
+F = G(m1m2/r^2) + qE + qv x B + μ0I/2πr + Aexp[i(kx-ωt)] + mF/a + 10^15 G (2π/T)^1/2 + 1.4M⊙
+
+E = mc² + G(m₁m₂/r²) + μ₀(H + M) + qE + qv × B + (2πR²B)/(3Ic²) + (m c) ² + H₀ × (1.22 × 10⁸ m/s)² - (1.6 × 10⁻³⁴ m)² - 2.725 K
+
+ψ(x,t) = ∑nCnφn(x)exp(-iEn/ħt)
+
+ψ(x,t) = ∑nCnφn(x)exp(-i(G(m₁m₂/r²) + μ₀(H + M) + qE + qv × B))/ħt)
+
+E = (2πR²B)/(3Ic²) + H₀ × (1.22 × 10⁸ m/s)² - (1.6 × 10⁻³⁴ m)² - 2.725 K
+
+F = qE + qv × B
+E = (2πR²B)/(3Ic²) + H₀ × (1.22 × 10⁸ m/s)² - (1.6 × 10⁻³⁴ m)² - 2.725 K
+
+relate all equations above in a new single equation
+
+F = G(m1m2/r^2) + qE + qv x B + μ0I/2πr + Aexp[i(kx-ωt)] + mF/a + 10^15 G (2π/T)^1/2 + 1.4M⊙ = (2πR²B)/(3Ic²) + H₀ × (1.22 × 10⁸ m/s)² - (1.6 × 10⁻³⁴ m)² - 2.725 K + ∑nCnφn(x)exp(-i(G(m₁m₂/r²) + μ₀(H + M) + qE + qv × B))/ħt
+
+################
+
+use the equations above and M-theory to make a new equation
+
+E = mc² + G(m₁m₂/r²) + μ₀(H + M) + qE + qv × B + (2πR²B)/(3Ic²) + (m c) ² + H₀ × (1.22 × 10⁸ m/s)² - (1.6 × 10⁻³⁴ m)² - 2.725 K + Aexp[i(kx-ωt)]
+
+###############
+
+E = mc² + G(m₁m₂/r²) + μ₀(H + M) + qE + qv × B + (2πR²B)/(3Ic²) + (m c) ² + H₀ × (1.22 × 10⁸ m/s)² - (1.6 × 10⁻³⁴ m)² - 2.725 K + Aexp[i(kx-ωt)]
+
+The equation above is an expression for the total energy of a system. It includes the mass-energy equivalence (mc²), the gravitational potential energy (G(m₁m₂/r²)), the magnetic potential energy (μ₀(H + M)), the electric potential energy (qE), the kinetic energy due to a moving charge in a magnetic field (qv × B), the kinetic energy of a rotating body (2πR²B)/(3Ic²)), the rest mass energy of a particle (m c) ², the Hubble constant multiplied by the speed of light squared (H₀ × (1.22 × 10⁸ m/s)²), Planck's constant multiplied by speed of light squared minus Boltzmann's constant (1.6 × 10⁻³⁴ m)² - 2.725 K), and finally, an oscillating term with amplitude A and frequency ω and wave number k, which is dependent on position x and time t (Aexp[i(kx-ωt)]).
+

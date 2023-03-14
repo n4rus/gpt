@@ -1,0 +1,70 @@
+################################ make a code for an android app that hubs ifood, uber, and rappi for drives 
+################################ to select the rides orders they want to take by price and distance.
+
+//Create a new Android project 
+public class RideOrderSelector extends Activity {
+
+    //Declare variables 
+    private double price;
+    private double distance;
+
+    //Create a method to select the ride orders by price and distance 
+    public void selectRideOrder(double price, double distance) {
+
+        //Check if the price is within the range of Ifood, Uber, and Rappi 
+        if (price >= 0 && price <= 10) {
+
+            //Check if the distance is within the range of Ifood, Uber, and Rappi 
+            if (distance >= 0 && distance <= 10) {
+
+                //If both conditions are met, display a list of available rides from Ifood, Uber, and Rappi 
+                System.out.println("Available rides from Ifood, Uber, and Rappi:");
+
+                //Display list of available rides from Ifood 
+                System.out.println("Ifood:");
+
+                //Display list of available rides from Uber 
+                System.out.println("Uber:");
+
+                //Display list of available rides from Rappi 
+                System.out.println("Rappi:");
+
+            } else {
+
+                //If the distance is not within the range of Ifood, Uber, and Rappi display an error message 
+                System.out.println("Error: Distance not within range.");
+
+            }
+
+        } else {
+
+            //If the price is not within the range of Ifood, Uber, and Rappi display an error message  
+            System.out.println("Error: Price not within range.");
+
+        }  
+    }  
+}
+
+################################include this code on the main activity of android:
+
+//In the onCreate() method of the main activity, call the selectRideOrder() method 
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+
+    //Call the selectRideOrder() method 
+    RideOrderSelector rideOrderSelector = new RideOrderSelector();
+    rideOrderSelector.selectRideOrder(price, distance);
+}
+
+//In the onCreate() method of the main activity, call the selectRideOrder() method 
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+
+    //Call the selectRideOrder() method 
+    RideOrderSelector rideOrderSelector = new RideOrderSelector();
+    rideOrderSelector.selectRideOrder(price, distance);
+}

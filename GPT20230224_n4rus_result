@@ -1,0 +1,26 @@
+N4rus
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+int main() {
+    std::vector<std::string> words;
+
+    std::string word;
+
+    while (std::cin >> word) {
+        words.push_back(word);
+    }
+
+    for (int i = 0; i < words.size(); ++i) {
+        std::cout << words[i] << std::endl;
+    }
+
+    return 0;
+}
+
+run the code and give return about it
+
+The code will read in words from the standard 
+input stream and store them in a vector. It will then print out each word on a separate line.
